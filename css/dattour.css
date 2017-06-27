@@ -1,0 +1,53 @@
+.giohang .row img
+{
+  width: 730px;
+}
+.giohang .dattour
+{
+  margin-left: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+.giohang .dattour .tt_dattour
+{
+  width: 109%;
+  height: 50px;
+  background-color: #009F3C; 
+  text-align: center;
+}
+.giohang .dattour .tt_dattour h3
+{
+  margin-top:13px;
+   color: red;
+}
+.giohang .dattour .ma_tour
+{
+  margin-top:70px;
+  line-height: 10px;
+}
+.giohang .dattour .gia_tour
+{
+  text-align: center;
+}
+.giohang .dattour .gia_tour span
+{
+  font-size: 20px;
+  color: #FF7200;
+  font-weight: 600;
+  
+}
+.giohang .dattour .chonngay
+{
+  margin-bottom: 100px;  
+}
+.giohang .dattour .chonngay .lich
+{
+  float: left;
+  margin-left: 5px;
+  
+}
+.giohang .dattour .chonngay .lich .form-control
+{
+  width: 50% !important;
+  
+}
