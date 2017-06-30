@@ -1,0 +1,223 @@
+/*duy hải */
+	.breadcrumb {
+		display: block;
+		float: left;
+		margin: 0;
+		width: 100%;
+	}
+	.breadcrumb ul {
+		list-style: none;
+		float: left;
+	}
+	.breadcrumb li {
+		float: left;
+	}
+	.breadcrumb .dismargin {
+		margin-left: -52px;
+	}
+	.breadcrumb a {
+		padding-right: 2px;
+		color: #177b15;
+	}
+	.contact img {
+		width: 100%;
+	}
+	.checkbox label {
+		padding-left: 0;
+	}
+	.abc-checkbox {
+		padding-left: 20px;
+	}
+	input[type="checkbox"].styled:checked + label:after, input[type="radio"].styled:checked + label:after, .abc-checkbox input[type=checkbox]:checked + label:after {
+ 	   	font-family: 'Glyphicons Halflings';
+    	content: "\e013";
+	} 
+	input[type="checkbox"].styled:checked label:after,input[type="radio"].styled:checked label:after, .abc-checkbox label:after {
+	    padding-left: 4px;
+	    padding-top: 2px;
+	    font-size: 9px;
+	}
+	.abc-checkbox label::before {
+		cursor: pointer;
+		content: "";
+		display: inline-block;
+		position: absolute;
+		width: 17px; height: 17px;
+		left: 0; top: 2px;
+		margin-left: -4px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		background-color: #fff; 
+	}
+	.abc-checkbox label::after {
+		cursor: pointer;
+		display: inline-block;
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 0px;
+		top: 2px;
+		margin-left: -4px;
+		padding-left: 3px;
+		padding-top: 1px;
+		font-size: 11px;
+		color: #55595c;
+	}
+	.beginner {
+		border-bottom: 1px solid #dafbc6;
+		padding: 10px 20px;
+		color: #777;
+	}
+	.contact h3{
+		text-transform: capitalize;
+		border-bottom: 1px solid #dafbc6;
+		padding-bottom: 20px;
+		margin-bottom: 0;
+	}
+	.beginner h4 {
+		text-transform: capitalize;
+	}
+	.navbar {
+		border-radius: 0;
+	}
+	.beginner .btn-default {
+		background-color: #f8f8f8;
+		color: #FF7200;
+	}
+	.beginner .btn-default:hover {
+		background-color: #FF7200;
+		color: #f8f8f8;
+	}
+	/* content */
+	.product-filter {
+		border-bottom: 1px solid #dafbc6;
+		padding: 15px 14px 19px;
+		width: 100%;
+	}
+	.content h2 {
+		margin-top: 0;
+		text-transform: uppercase;
+		color: #177b15;
+	}
+	.product {
+		width: 100%;
+		border: 1px solid #dafbc6;
+	}
+	.product-filter select {
+		color: #777777;
+		margin-left: 10px;
+		padding: 7px;
+		font-size: 14px;
+	}
+	.product-filter .limit {
+		margin-right: 50px;
+		display: inline;
+	}
+	.product-filter .sort {
+		display: inline;
+	}
+	.product-list {
+		width: 100%;
+		border-bottom: 1px solid #dafbc6;
+	}
+	.product-layout:hover {
+		border: 1px solid #FF7200;
+	}
+	.product-layout {
+		display: table;
+		width: 100%;
+		margin-top: 10px;
+		border-bottom: 1px solid #dafbc6;
+	}
+	.product-layout .img-left {
+		width: 270px;
+		text-align: center;
+		display: table-cell;
+		padding-top: 12px;
+		padding-bottom: 21px;
+	}
+	.product-layout .img-left img {
+		width: 243px;
+	}
+	.details {
+		display: table-cell;
+		padding: 10px 20px 20px 2px;
+		width: 410px;
+		vertical-align: top;
+	}
+	.details .nametravel {
+		font-size: 18px;
+		margin-bottom: 2px;
+	}
+	.nametravel  h3 {
+		font-size: 18px;
+		margin-top: 0;
+	}
+	.description {
+		color: #777777;
+		font-size: 14px;
+		font-family: italic;
+	}
+	.price-cart {
+		padding: 9px 20px 20px 2px;
+		text-align: right;
+		vertical-align: top;
+		display: table-cell;
+	}
+	.price {
+		font-size: 20px;
+		margin-bottom: 15px;
+		margin-top: 10px;
+		color: #FF7200;
+	}
+	.price-cart a{
+		background-color: #FF7200;
+		padding: 10px;
+		font-size: 16px;
+		border-radius: 3px;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.price-cart a:hover {
+		background-color: #FF7200;
+	}
+	/* pagination */
+	.pagination a {
+		color: #FF7200;
+	}
+	.pagination > .active > a, .pagination > .active > span,.pagination > .active > a:hover, .pagination > .active > span:hover,
+	 .pagination > .active > a:focus, .pagination > .active > span:focus {
+	 	background-color: #FF7200;
+		color: #fff;
+		border-color: #FF7200;
+	 }
+	 .pagination .active > a{
+	 	background-color: #FF7200;
+		color: #fff;
+		border-color:#FF7200;
+	 }
+	 .pagination > li > a, .pagination > li > span  {
+	 	color: #777777;
+	 }
+	 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+	 	color: #777777;
+	 	background-color: #FF7200;
+	 	border-color: #FF7200;
+	 }
+	 .content .pagination {
+	 	display: inherit;
+	 }
+	 .text-right p {
+	 	padding-top: 10px;
+	 	color: #777777;
+	 }
+	 .content-infor {
+	 	margin-top: 40px;
+	 }
+	 .content-infor b {
+	 	text-align: justify;
+	 }
+	 .content-infor p {
+	 	text-align: justify;
+	 	padding-top: 15px;
+	 }
